@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    color: blue;
+    font-style: italic;
+    margin: 14px 13px;
+    background-color: black;
+
+   
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.container{
+    background-color: beige;
+    padding: 5px  20px 5px 20px;
+    border-radius: 30px;
+     border: solid rebeccapurple;
+}
+input[type="text"],
+input [type="email"],
+input [type="number"],
+input [type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 700px;
+}
+input[type="submit"]{
+    background-color: aqua; 
+    padding: 10px 20px ;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 700px; ;
+    
+}
+input[type="submit"]:hover{
+    color: blue;
+    background-color: black;
+    
+}
+

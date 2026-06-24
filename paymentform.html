@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivanshu Made Payment form</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="shortcut icon" href="../shivanshu.imag.jpeg" type="image/x-icon">
+</head>
+<body>
+    <form  class="container">
+        <h1>Payment form</h1>
+        <h2>Contact details </h2>
+        <p>Name: <input type="text" name="name" id="name" required ></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>Male <input type="radio" name="Gender" id="Male"> </p>
+            <P>female <input type="radio" name="Gender" id="female"></P>
+        </fieldset>
+            <P>Address: <textarea name="" id="" cols="70" rows="5"></textarea> </P>
+            <p>Pincode: <input type="number" name="Pincode" id="Pincode"></p>
+            <p>Email: <input type="email" name="Email" id="email"></p>
+
+            <hr>
+            <h3>Payment Details</h3>
+            <p>Payment Mode <img src="SBI-Card-Logo.png" alt="" height="10"> <img src="hdfc logo.webp" alt="" height="60" width="60"> <img src="gpay.logo.webp" alt="" width="70px">
+                <select>
+                    <option value="--select a mode---">---select a card type </option>
+                    <option value="Sbi ">Sbi card </option>
+                    <option value="hdfc ">hdfc card</option>
+                    <option value="gpay">gpay</option>
+                </select>
+                <p>Password: <input type="password" name="password" id="password"></p>
+                <p>Cvv: <input type="number" name="" id=""></p>
+                <p>Expiration date: <input type="date" name="" id=""></p>
+            </p>
+            <p>Pay Now <input type="submit" value="Pay now "></p>
+    </form> 
+</body>
+</html>
